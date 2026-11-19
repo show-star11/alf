@@ -7,3 +7,5 @@ metastore_db/
 derby.log
 spark-checkpoints/
 .DS_Store
+target/
+classpath.txt

@@ -15,6 +15,7 @@ Windows steps to run, expected output and fixes for common errors.
   practical-3   3-broker Kafka cluster with a Python producer and consumer
   practical-4   Schema evolution with Kafka Schema Registry
   practical-5   Real-time word count with Spark Structured Streaming
+  practical-6   Fraud detection with Apache Flink (KeyedProcessFunction)
 
 How to use
 ----------
