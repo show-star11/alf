@@ -1,0 +1,7 @@
+{
+  "patient_id": 101,
+  "patient_name": "Amit",
+  "age": 45,
+  "heart_rate": 78,
+  "blood_pressure": "120/80"
+}
