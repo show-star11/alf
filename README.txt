@@ -9,13 +9,14 @@ Each practical is in its own folder, with its code and a README.txt that has the
 Windows steps to run, expected output and fixes for common errors.
 
   Folder        Practical
-  ------------- ------------------------------------------------------------
+  ------------- --------------------------------------------------------------
   practical-1   Spark optimization: data skew and shuffle bottlenecks
   practical-2   Data lakehouse with Delta Lake
   practical-3   3-broker Kafka cluster with a Python producer and consumer
   practical-4   Schema evolution with Kafka Schema Registry
   practical-5   Real-time word count with Spark Structured Streaming
   practical-6   Fraud detection with Apache Flink (KeyedProcessFunction)
+  practical-7   Watermark handling with late data and side outputs (PyFlink)
 
 How to use
 ----------
