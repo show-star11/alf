@@ -1,10 +1,6 @@
 Big Data Practical 7: Watermark Handling with Late Data and Side Outputs
 ========================================================================
 
-Name: Arvind Yadav
-Roll no: 31011123065
-Class: LYCS
-
 Aim
 ---
 
@@ -176,18 +172,15 @@ Step 6. The code: latedata.py
     from pyflink.datastream.output_tag import OutputTag
     from pyflink.datastream.window import TumblingEventTimeWindows
 
-
     # Tells Flink where the event time is stored in each event
     class DeliveryTimestampAssigner(TimestampAssigner):
         def extract_timestamp(self, value, record_timestamp):
             return value[1]
 
-
     def slow_down(event):
         # Send one event every second, like events arriving over a network
         time.sleep(1)
         return event
-
 
     # Send each event on as soon as it is processed, instead of in batches
     config = Configuration()

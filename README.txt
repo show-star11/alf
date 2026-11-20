@@ -1,10 +1,6 @@
 Big Data Analytics Practicals
 =============================
 
-Name: Arvind Yadav
-Roll no: 31011123065
-Class: LYCS
-
 Each practical is in its own folder, with its code and a README.txt that has the aim, theory,
 Windows steps to run, expected output and fixes for common errors.
 

@@ -1,10 +1,6 @@
 Big Data Practical 6: Fraud Detection with Apache Flink (KeyedProcessFunction)
 ==============================================================================
 
-Name: Arvind Yadav
-Roll no: 31011123065
-Class: LYCS
-
 Aim
 ---
 

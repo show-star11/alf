@@ -1,10 +1,6 @@
 Big Data Practical 3: 3-Broker Kafka Cluster
 ============================================
 
-Name: Arvind Yadav
-Roll no: 31011123065
-Course: LYBSc. CS
-
 Aim
 ---
 

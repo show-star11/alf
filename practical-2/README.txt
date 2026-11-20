@@ -1,9 +1,6 @@
 Big Data Practical 2: Data Lakehouse with Delta Lake
 ====================================================
 
-Name: Arvind Yadav
-Roll no: 31011123065
-
 Aim
 ---
 

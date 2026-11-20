@@ -1,11 +1,6 @@
 Big Data Practical 5: Real-Time Word Count with Spark Structured Streaming
 ==========================================================================
 
-Name: Arvind Yadav
-Seat no: 31011123065
-Class: LYCS
-Subject: Big Data Analytics
-
 Aim
 ---
 
