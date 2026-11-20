@@ -65,6 +65,19 @@ then open it and wait until it shows Engine running. In the VS Code terminal:
 
 docker ps should print the column headings without an error.
 
+If it says docker : The term 'docker' is not recognized, Docker Desktop is running but the terminal
+cannot find it. Run these lines one at a time in the same terminal:
+
+    $d = Split-Path (Get-Process "Docker Desktop" | Select-Object -First 1).Path
+    $exe = Get-ChildItem $d, (Split-Path $d), "C:\Program Files\Docker", "$env:LOCALAPPDATA\Programs" -Filter docker.exe -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1
+    $env:PATH += ";" + $exe.DirectoryName
+    docker --version
+
+The last line should print the Docker version. To keep this fix for every new terminal, run this
+once:
+
+    [Environment]::SetEnvironmentVariable("Path", [Environment]::GetEnvironmentVariable("Path", "User") + ";" + $exe.DirectoryName, "User")
+
 Step 2. Create the project in VS Code
 
     git clone https://github.com/show-star11/alf.git
